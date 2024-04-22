@@ -1,0 +1,21 @@
+#link:https://drive.google.com/file/d/1WLpBSmYSfglHThvTg_nnmv_0GXq8WyOI/view?usp=drive_link
+
+list=[1112,1992,1222,1789,1324]
+n=1992
+n=int(input("enter the password="))
+if n in list:
+    print("hi arjun")
+if n not in list:
+    print ("password is wrong")
+    exit(),
+debit=int(input("enter the money="))
+balance=10000
+total=(balance+debit)
+print("your balance is", total)
+withdraw=int(input("enter the withdraw amount="))
+print("your balance is= ",total-withdraw)
+if balance<=5000:
+    print("your balance is low..!keep the minimum to avoid penalty")
+elif balance>5000:
+    print("thanks...!! visit again")
+
